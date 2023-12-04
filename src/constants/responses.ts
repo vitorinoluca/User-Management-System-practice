@@ -1,0 +1,32 @@
+export const ERRORS_MSGS = {
+  EMAIL_ALREADY_EXISTS: 'Email address already exists',
+  USER_NOT_FOUND: 'User not found',
+  INCORRECT_PASSWORD: 'Incorrect password',
+  EMAIL_REQUIRED: 'Email is required',
+  PASSWORD_REQUIRED: 'Password is required',
+  PASSWORD_CONFIRMATION_REQUIRED: 'Password confirmation is required',
+  PASSWORDS_DO_NOT_MATCH: 'Passwords do not match',
+  INVALID_EMAIL: 'Invalid email address',
+  UNAUTHORIZED: 'Unauthorized access',
+  PASSWORD_RESET_EXPIRED: 'Password reset token has expired',
+  DATABASE_CONNECTION_ERROR: 'Error connecting to the database',
+  INTERNAL_SERVER_ERROR: 'Internal server error',
+  INVALID_VERIFICATION_CODE: 'The verification code is incorrect.',
+  VERIFICATION_CODE_NOT_SENT: 'The verification code was not sent.',
+  USER_ALREADY_VALIDATED: 'The user already is validated.',
+  USER_ALREADY_ADDED_INFO: 'The user had already added the information.',
+};
+
+export const SUCCESS_MSGS = {
+  USER_CREATED: 'User created successfully',
+  LOGIN_SUCCESSFUL: 'Login successful',
+  LOGOUT_SUCCESSFUL: 'Logout successful',
+  PASSWORD_RESET_EMAIL_SENT: 'Password reset email sent successfully',
+  PASSWORD_RESET_SUCCESSFUL: 'Password reset successful',
+  DATABASE_CONNECTED: 'Database connected successfully',
+  SERVER_ON: 'Server running successfully',
+  USER_VERIFIED: 'The user is verified.',
+  VERIFICATION_CODE_SENT: 'The verification code was sent.',
+  USER_INFO_UPDATED: 'The user info was added.',
+  USER_DELETED: 'The user was deleted successfully.',
+};
